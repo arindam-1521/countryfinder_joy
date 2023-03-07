@@ -6,7 +6,7 @@ const apifunc = async () => {
     let result = await response.json()
     let ihtml = ""
     for (x in result) {
-        console.log(result[x])
+        // console.log(result[x])
         ihtml += `<div class="card mx-2 my-2 shadow p-1" style="width: 20rem;border-radius: 20px;">
         <img src="${result[x].flags.png}" class="card-img-top" style="    border-radius: 20px;">
         <div class="card-body">
